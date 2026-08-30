@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Property Post Maker"
+description = "A polished browser tool for creating ready-to-share branded property creatives from four simple inputs, with automatic identity and contact details for Sumit Sangrampurkar."
+version = "1.0.0"
+id = "artifacts/property-post-maker"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23773
+
+[services.development]
+run = "pnpm --filter @workspace/property-post-maker run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/property-post-maker", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/property-post-maker/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23773"
+BASE_PATH = "/"

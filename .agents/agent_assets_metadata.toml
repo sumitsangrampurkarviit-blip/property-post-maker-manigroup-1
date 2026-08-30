@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "f9wmZ88JaxDSqZCxC3_mX"
+uri = "file://samples/property-post-sumit-sangrampurkar.svg"
+type = "image"
+title = "Sample property post"
+description = "A share-ready sample creative generated from the Lucknow villa example, with Sumit Sangrampurkar branding and contact line."
+logical_id = "ac2e64fd-d41f-4101-894d-c54e812180bf"
+content_hash = "sha256:b3a4e1dd1a1c7642c94e6dcf3923d5e9675e9fb363dfcc35c45023ae8a163394"
+size = 2709
+mtime_ms = 1788089438087
+storage_uri = "gcs://replit-rams-assets-pike/rams/assets/repl:d14e5fe3-302b-427b-85e7-803cb276acec/ac2e64fd-d41f-4101-894d-c54e812180bf/5ef0dd16-a7f0-4035-99cd-34a57c0aeee8"
+storage_version_token = "1788089438871090"
+content_type = "image/svg+xml"

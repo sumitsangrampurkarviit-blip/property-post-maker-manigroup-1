@@ -1,0 +1,1 @@
+- [Cloudflare Pages deployment](cloudflare-pages.md) — external static hosts do not provide Replit’s PORT and BASE_PATH variables.
